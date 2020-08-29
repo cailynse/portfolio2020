@@ -39,6 +39,7 @@ font-size: 4vh;
 }
 
 #photo {
+  max-width: 100vw;
   background-color: #2A2441;
   width: 100%;
   display: table;
@@ -59,6 +60,7 @@ font-size: 4vh;
 
 .columnRight {
   float: left;
+  padding-right: 5%;
   width: 70%;
   min-height: 500px;
   padding: 5px;
@@ -70,8 +72,6 @@ img {
   opacity: 0.8;
   border-radius: 5%;
   float: center;
-  max-height: 100%;
-  max-width: 100%;
   width: auto;
   height: auto;
   position: absolute;
@@ -84,18 +84,22 @@ img {
 
 #cailynJSON {
   color: #78BCB5;
-  float:left;
+  float: center;
   text-align: left;
   font-size: calc(12px + .1vw);
   
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .columnLeft {
     width: 100%;
   }
   .columnRight {
     width: 100%;
+  }
+  img {
+    border-radius: 50%;
+    width: 50%;
   }
 }
 #mediaLinks {

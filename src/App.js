@@ -48,8 +48,26 @@ function App() {
                 <pre> &#125;</pre>
                 <pre>],</pre>
                 <pre><span className="highlight">"Education"</span>:"BCS Carleton University Class of 2021",</pre>
-                <pre><span className="highlight">"Languages"</span>:["GoLang", "Ruby on Rails", "Java", "C", "C#", "C++", "Python", "JavaScript"]</pre>
-                <pre>"<span className="highlight">Technologies"</span>:["Kubernetes", "Google Cloud Platform", "Git", "Shipit", "Longboat", "Bugsnag", "MySQL Pro", "Insomnia"]</pre>
+                <pre><span className="highlight">"Languages"</span>:[</pre>
+                  <pre>  "GoLang",</pre> 
+                  <pre>  "Ruby on Rails", </pre>
+                  <pre>  "Java", </pre>
+                  <pre>  "C", </pre>
+                  <pre>  "C#", </pre>
+                  <pre>  "C++", </pre>
+                  <pre>  "Python", </pre>
+                  <pre>  "JavaScript"</pre>
+                  <pre>  ],</pre>
+                <pre>"<span className="highlight">Technologies"</span>:[</pre>
+                  <pre>  "Kubernetes", </pre>
+                  <pre>  "Google Cloud Platform", </pre>
+                  <pre>  "Git", </pre>
+                  <pre>  "Shipit", </pre>
+                  <pre>  "Longboat", </pre>
+                  <pre>  "Bugsnag", </pre>
+                  <pre>  "MySQL Pro", </pre>
+                  <pre>  "Insomnia" </pre>
+                  <pre>  ]</pre>
                 <pre>&#125;</pre>
               </pre>
             </div>
