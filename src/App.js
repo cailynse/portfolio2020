@@ -34,22 +34,22 @@ function App() {
             <div id="cailynJSON">
               <pre>
                 <pre>	&#123; </pre>
-                <pre>"Name":"Cailyn Edwards",</pre>
-                <pre>"Experience":[ </pre>
+                <pre><span className="highlight">"Name"</span>:"Cailyn Edwards",</pre>
+                <pre><span className="highlight">"Experience"</span>:[ </pre>
                 <pre> &#123;</pre>
-                <pre>   "Employer":"Shopify",</pre>
-                <pre>   "Role":"Dev Degree Intern</pre>
-                <pre>   "Team":"Infrastructure Security"</pre>
-                <pre>&#125;,</pre>
+                <pre>   <span className="highlight">"Employer"</span>:"Shopify",</pre>
+                <pre>   <span className="highlight">"Role"</span>:"Dev Degree Intern"</pre>
+                <pre>   <span className="highlight">"Team"</span>:"Infrastructure Security"</pre>
+                <pre> &#125;,</pre>
                 <pre> &#123;</pre>
-                <pre>   "Employer":"Shopify",</pre>
-                <pre>   "Role":"Dev Degree Intern</pre>
-                <pre>   "Team":"Orders - Backend Developer"</pre>
-                <pre>&#125;,</pre>
+                <pre>   <span className="highlight">"Employer"</span>:"Shopify",</pre>
+                <pre>   <span className="highlight">"Role"</span>:"Dev Degree Intern"</pre>
+                <pre>   <span className="highlight">"Team"</span>:"Orders - Backend Developer"</pre>
+                <pre> &#125;</pre>
                 <pre>],</pre>
-                <pre>"Education":"BCS Carleton University Class of 2021",</pre>
-                <pre>"Languages":["GoLang", "Ruby on Rails", "Java", "C", "C#", "C++", "Python", "JavaScript"]</pre>
-                <pre>"Technologies":["Kubernetes", "Google Cloud Platform", "Git", "Shipit", "Longboat", "Bugsnag", "MySQL Pro", "Insomnia"]</pre>
+                <pre><span className="highlight">"Education"</span>:"BCS Carleton University Class of 2021",</pre>
+                <pre><span className="highlight">"Languages"</span>:["GoLang", "Ruby on Rails", "Java", "C", "C#", "C++", "Python", "JavaScript"]</pre>
+                <pre>"<span className="highlight">Technologies"</span>:["Kubernetes", "Google Cloud Platform", "Git", "Shipit", "Longboat", "Bugsnag", "MySQL Pro", "Insomnia"]</pre>
                 <pre>&#125;</pre>
               </pre>
             </div>
