@@ -1,38 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #282c34;
+}
+
 .App {
-  text-align: center;
+  width: 100%;
+  float: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
+  padding: 20px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #78BCB5;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.intro {
+font-size: 4vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.medium {
+  font-size: 3vh;
+}
+
+.highlight {
+  color: #C3B7F1;
+}
+
+#photo {
+  background-color: #2A2441;
+  width: 100%;
+  display: table;
+}
+
+.row {
+  display: table-row;
+  width: 100%;
+}
+
+.columnLeft {
+  float: left;
+  width: 30%;
+  min-height: 500px;
+  padding: 5px;
+  position: relative;
+}
+
+.columnRight {
+  float: left;
+  width: 70%;
+  min-height: 500px;
+  padding: 5px;
+}
+
+img {
+  padding: 10px;
+  opacity: 0.8;
+  border-radius: 5%;
+  float: center;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#cailynJSON {
+  color: #78BCB5;
+  float:left;
+  text-align: left;
+  font-size: calc(12px + .1vw);
+  
+}
+
+@media screen and (max-width: 700px) {
+  .columnLeft {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .columnRight {
+    width: 100%;
   }
+}
+#mediaLinks {
+  padding-top: 20px;
+  text-align: center;
+}
+#mediaLinks a {
+  padding: 10px;
 }
